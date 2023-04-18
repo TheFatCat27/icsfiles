@@ -1,578 +1,544 @@
 {
-  "VCALENDAR": [
+  "VEVENT": [
     {
-      "VERSION": "2.0",
-      "PRODID": "-//The University of Auckland//UoACal 2.0//EN",
-      "METHOD": "PUBLISH",
-      "X-WR-CALNAME": "UoA Timetable",
-      "X-WR-CALDESC": "UoA Timetable obtained from uoacal.auckland.ac.nz",
-      "X-WR-TIMEZONE": "Pacific/Auckland",
-      "X-PUBLISHED-TTL": "PT12H",
-      "VTIMEZONE": [
-        {
-          "TZID": "Pacific/Auckland",
-          "X-LIC-LOCATION": "Pacific/Auckland",
-          "STANDARD": [
-            {
-              "DTSTART": "20230402T030000",
-              "TZOFFSETFROM": "+1300",
-              "TZOFFSETTO": "+1200",
-              "RDATE": "20240407T030000",
-              "TZNAME": "NZST"
-            }
-          ],
-          "DAYLIGHT": [
-            {
-              "DTSTART": "20230924T020000",
-              "TZOFFSETFROM": "+1200",
-              "TZOFFSETTO": "+1300",
-              "TZNAME": "NZDT"
-            }
-          ]
-        }
-      ],
-      "VEVENT": [
-        {
-          "UID": "20230418T132241NZST-0229ZDUW0R@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230105T110000",
-          "DTEND;TZID=Pacific/Auckland": "20230105T130000",
-          "LOCATION": "206-209",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230128T130030Z",
-          "SUMMARY": "ECON 151G TUT"
-        },
-        {
-          "UID": "20230418T132241NZST-0234ucHwFA@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230202T110000",
-          "DTEND;TZID=Pacific/Auckland": "20230202T130000",
-          "LOCATION": "206-209",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230205T130030Z",
-          "SUMMARY": "ECON 151G TUT"
-        },
-        {
-          "UID": "20230418T132241NZST-0239lVVFhV@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230209T110000",
-          "DTEND;TZID=Pacific/Auckland": "20230209T130000",
-          "LOCATION": "206-209",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230209T130030Z",
-          "SUMMARY": "ECON 151G TUT"
-        },
-        {
-          "UID": "20230418T132241NZST-02446bpPVJ@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230110T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230110T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230128T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0250Uvfx4b@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230131T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230131T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230205T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0255Gesxk6@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230207T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230207T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230207T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0260F7O4xM@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230111T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230111T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230128T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0265u1MwfB@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230201T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230201T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230205T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0270xUmsXZ@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230208T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230208T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230208T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0277xS2cIu@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230105T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230105T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230128T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0282XJzJne@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230202T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230202T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230205T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0287CLsGtN@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230209T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230209T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230209T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0292fU5Hjm@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012240Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230106T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230106T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230128T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0297SF8sp0@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230203T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230203T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230205T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0302ses0Ri@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Understandg the Global Econ",
-          "DTSTART;TZID=Pacific/Auckland": "20230210T130000",
-          "DTEND;TZID=Pacific/Auckland": "20230210T150000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230210T150030Z",
-          "SUMMARY": "ECON 151G"
-        },
-        {
-          "UID": "20230418T132241NZST-0308xuNVZi@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Enterprise Systems",
-          "DTSTART;TZID=Pacific/Auckland": "20230301T100000",
-          "DTEND;TZID=Pacific/Auckland": "20230301T120000",
-          "LOCATION": "260-004",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230405T120030Z",
-          "SUMMARY": "INFOSYS 321 LAB"
-        },
-        {
-          "UID": "20230418T132241NZST-0312eVzgK8@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Enterprise Systems",
-          "DTSTART;TZID=Pacific/Auckland": "20230426T100000",
-          "DTEND;TZID=Pacific/Auckland": "20230426T120000",
-          "LOCATION": "260-004",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230531T120030Z",
-          "SUMMARY": "INFOSYS 321 LAB"
-        },
-        {
-          "UID": "20230418T132241NZST-0317PBwovo@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "The Entrepreneurial Mindset",
-          "DTSTART;TZID=Pacific/Auckland": "20230228T180000",
-          "DTEND;TZID=Pacific/Auckland": "20230228T210000",
-          "LOCATION": "402-449",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230228T210030Z",
-          "SUMMARY": "INNOVENT 203"
-        },
-        {
-          "UID": "20230418T132241NZST-0322sKW5FD@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "The Entrepreneurial Mindset",
-          "DTSTART;TZID=Pacific/Auckland": "20230321T180000",
-          "DTEND;TZID=Pacific/Auckland": "20230321T210000",
-          "LOCATION": "260-040",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230404T210030Z",
-          "SUMMARY": "INNOVENT 203"
-        },
-        {
-          "UID": "20230418T132241NZST-0328dLFBop@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "The Entrepreneurial Mindset",
-          "DTSTART;TZID=Pacific/Auckland": "20230502T180000",
-          "DTEND;TZID=Pacific/Auckland": "20230502T210000",
-          "LOCATION": "260-040",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230502T210030Z",
-          "SUMMARY": "INNOVENT 203"
-        },
-        {
-          "UID": "20230418T132241NZST-0333sHorKK@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Enterprise Systems",
-          "DTSTART;TZID=Pacific/Auckland": "20230228T140000",
-          "DTEND;TZID=Pacific/Auckland": "20230228T160000",
-          "LOCATION": "105S-039",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230404T160030Z",
-          "SUMMARY": "INFOSYS 321"
-        },
-        {
-          "UID": "20230418T132241NZST-0338JMAe98@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Enterprise Systems",
-          "DTSTART;TZID=Pacific/Auckland": "20230502T140000",
-          "DTEND;TZID=Pacific/Auckland": "20230502T160000",
-          "LOCATION": "105S-039",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230530T160030Z",
-          "SUMMARY": "INFOSYS 321"
-        },
-        {
-          "UID": "20230418T132241NZST-0343NjsdFG@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Object Oriented Software Devel",
-          "DTSTART;TZID=Pacific/Auckland": "20230227T170000",
-          "DTEND;TZID=Pacific/Auckland": "20230227T180000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230403T180030Z",
-          "SUMMARY": "COMPSCI 230"
-        },
-        {
-          "UID": "20230418T132241NZST-0348U3Jwkw@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Object Oriented Software Devel",
-          "DTSTART;TZID=Pacific/Auckland": "20230424T170000",
-          "DTEND;TZID=Pacific/Auckland": "20230424T180000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230424T180030Z",
-          "SUMMARY": "COMPSCI 230"
-        },
-        {
-          "UID": "20230418T132241NZST-0353hnvL7b@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Object Oriented Software Devel",
-          "DTSTART;TZID=Pacific/Auckland": "20230501T170000",
-          "DTEND;TZID=Pacific/Auckland": "20230501T180000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230529T180030Z",
-          "SUMMARY": "COMPSCI 230"
-        },
-        {
-          "UID": "20230418T132241NZST-0358rJVaM6@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Object Oriented Software Devel",
-          "DTSTART;TZID=Pacific/Auckland": "20230228T110000",
-          "DTEND;TZID=Pacific/Auckland": "20230228T120000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230404T120030Z",
-          "SUMMARY": "COMPSCI 230"
-        },
-        {
-          "UID": "20230418T132241NZST-0363rPehJU@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Object Oriented Software Devel",
-          "DTSTART;TZID=Pacific/Auckland": "20230502T110000",
-          "DTEND;TZID=Pacific/Auckland": "20230502T120000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230530T120030Z",
-          "SUMMARY": "COMPSCI 230"
-        },
-        {
-          "UID": "20230418T132241NZST-0368FVXKrz@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Object Oriented Software Devel",
-          "DTSTART;TZID=Pacific/Auckland": "20230302T100000",
-          "DTEND;TZID=Pacific/Auckland": "20230302T110000",
-          "LOCATION": "260-073",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230406T110030Z",
-          "SUMMARY": "COMPSCI 230"
-        },
-        {
-          "UID": "20230418T132241NZST-0373ZaS0K1@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Object Oriented Software Devel",
-          "DTSTART;TZID=Pacific/Auckland": "20230427T100000",
-          "DTEND;TZID=Pacific/Auckland": "20230427T110000",
-          "LOCATION": "260-073",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230601T110030Z",
-          "SUMMARY": "COMPSCI 230"
-        },
-        {
-          "UID": "20230418T132241NZST-0378mXwWMd@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Object Oriented Software Devel",
-          "DTSTART;TZID=Pacific/Auckland": "20230307T100000",
-          "DTEND;TZID=Pacific/Auckland": "20230307T110000",
-          "LOCATION": "303S-G75",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230404T110030Z",
-          "SUMMARY": "COMPSCI 230 LAB"
-        },
-        {
-          "UID": "20230418T132241NZST-0383Vvr2NI@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Object Oriented Software Devel",
-          "DTSTART;TZID=Pacific/Auckland": "20230502T100000",
-          "DTEND;TZID=Pacific/Auckland": "20230502T110000",
-          "LOCATION": "303S-G75",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230530T110030Z",
-          "SUMMARY": "COMPSCI 230 LAB"
-        },
-        {
-          "UID": "20230418T132241NZST-0388AsNu7b@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Digital Fundamentals",
-          "DTSTART;TZID=Pacific/Auckland": "20230303T090000",
-          "DTEND;TZID=Pacific/Auckland": "20230303T120000",
-          "LOCATION": "303-G04",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230406T120030Z",
-          "SUMMARY": "PHYSICS 140 LAB"
-        },
-        {
-          "UID": "20230418T132241NZST-0393wlv4ui@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Digital Fundamentals",
-          "DTSTART;TZID=Pacific/Auckland": "20230428T090000",
-          "DTEND;TZID=Pacific/Auckland": "20230428T120000",
-          "LOCATION": "303-G04",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230602T120030Z",
-          "SUMMARY": "PHYSICS 140 LAB"
-        },
-        {
-          "UID": "20230418T132241NZST-0398ooLe2t@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Digital Fundamentals",
-          "DTSTART;TZID=Pacific/Auckland": "20230227T120000",
-          "DTEND;TZID=Pacific/Auckland": "20230227T130000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230403T130030Z",
-          "SUMMARY": "PHYSICS 140"
-        },
-        {
-          "UID": "20230418T132241NZST-0403ruJWD6@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Digital Fundamentals",
-          "DTSTART;TZID=Pacific/Auckland": "20230424T120000",
-          "DTEND;TZID=Pacific/Auckland": "20230424T130000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230424T130030Z",
-          "SUMMARY": "PHYSICS 140"
-        },
-        {
-          "UID": "20230418T132241NZST-0408XOUeSg@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Digital Fundamentals",
-          "DTSTART;TZID=Pacific/Auckland": "20230501T120000",
-          "DTEND;TZID=Pacific/Auckland": "20230501T130000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230529T130030Z",
-          "SUMMARY": "PHYSICS 140"
-        },
-        {
-          "UID": "20230418T132241NZST-0413459gvD@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Digital Fundamentals",
-          "DTSTART;TZID=Pacific/Auckland": "20230228T120000",
-          "DTEND;TZID=Pacific/Auckland": "20230228T130000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230404T130030Z",
-          "SUMMARY": "PHYSICS 140"
-        },
-        {
-          "UID": "20230418T132241NZST-0419lOXTgu@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Digital Fundamentals",
-          "DTSTART;TZID=Pacific/Auckland": "20230502T120000",
-          "DTEND;TZID=Pacific/Auckland": "20230502T130000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230530T130030Z",
-          "SUMMARY": "PHYSICS 140"
-        },
-        {
-          "UID": "20230418T132241NZST-0424nPmnaB@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Digital Fundamentals",
-          "DTSTART;TZID=Pacific/Auckland": "20230303T120000",
-          "DTEND;TZID=Pacific/Auckland": "20230303T130000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230406T130030Z",
-          "SUMMARY": "PHYSICS 140"
-        },
-        {
-          "UID": "20230418T132241NZST-0429GHchkw@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Digital Fundamentals",
-          "DTSTART;TZID=Pacific/Auckland": "20230428T120000",
-          "DTEND;TZID=Pacific/Auckland": "20230428T130000",
-          "LOCATION": "303-G20",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230602T130030Z",
-          "SUMMARY": "PHYSICS 140"
-        },
-        {
-          "UID": "20230418T132241NZST-0434UORAVE@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Data Management",
-          "DTSTART;TZID=Pacific/Auckland": "20230717T160000",
-          "DTEND;TZID=Pacific/Auckland": "20230717T180000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230821T180030Z",
-          "SUMMARY": "BUSAN 201"
-        },
-        {
-          "UID": "20230418T132241NZST-04397UnTV4@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Data Management",
-          "DTSTART;TZID=Pacific/Auckland": "20230911T160000",
-          "DTEND;TZID=Pacific/Auckland": "20230911T180000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20231016T180030Z",
-          "SUMMARY": "BUSAN 201"
-        },
-        {
-          "UID": "20230418T132241NZST-0443sjEObr@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Data Management",
-          "DTSTART;TZID=Pacific/Auckland": "20230718T160000",
-          "DTEND;TZID=Pacific/Auckland": "20230718T180000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230822T180030Z",
-          "SUMMARY": "BUSAN 201"
-        },
-        {
-          "UID": "20230418T132241NZST-0448Viz95R@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Data Management",
-          "DTSTART;TZID=Pacific/Auckland": "20230912T160000",
-          "DTEND;TZID=Pacific/Auckland": "20230912T180000",
-          "LOCATION": "109-B10",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20231017T180030Z",
-          "SUMMARY": "BUSAN 201"
-        },
-        {
-          "UID": "20230418T132241NZST-0453muKPgH@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Software Development Methodolo",
-          "DTSTART;TZID=Pacific/Auckland": "20230718T090000",
-          "DTEND;TZID=Pacific/Auckland": "20230718T100000",
-          "LOCATION": "303-G23",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230822T100030Z",
-          "SUMMARY": "COMPSCI 235"
-        },
-        {
-          "UID": "20230418T132241NZST-0458VjlTgW@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Software Development Methodolo",
-          "DTSTART;TZID=Pacific/Auckland": "20230912T090000",
-          "DTEND;TZID=Pacific/Auckland": "20230912T100000",
-          "LOCATION": "303-G23",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20231017T100030Z",
-          "SUMMARY": "COMPSCI 235"
-        },
-        {
-          "UID": "20230418T132241NZST-04632wFc9i@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Software Development Methodolo",
-          "DTSTART;TZID=Pacific/Auckland": "20230719T170000",
-          "DTEND;TZID=Pacific/Auckland": "20230719T180000",
-          "LOCATION": "303-G23",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230823T180030Z",
-          "SUMMARY": "COMPSCI 235"
-        },
-        {
-          "UID": "20230418T132241NZST-0469Bzc5sk@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Software Development Methodolo",
-          "DTSTART;TZID=Pacific/Auckland": "20230913T170000",
-          "DTEND;TZID=Pacific/Auckland": "20230913T180000",
-          "LOCATION": "303-G23",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20231018T180030Z",
-          "SUMMARY": "COMPSCI 235"
-        },
-        {
-          "UID": "20230418T132241NZST-0474Of6Gv9@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Software Development Methodolo",
-          "DTSTART;TZID=Pacific/Auckland": "20230720T090000",
-          "DTEND;TZID=Pacific/Auckland": "20230720T100000",
-          "LOCATION": "303-G23",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230824T100030Z",
-          "SUMMARY": "COMPSCI 235"
-        },
-        {
-          "UID": "20230418T132241NZST-0479GRcW32@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Software Development Methodolo",
-          "DTSTART;TZID=Pacific/Auckland": "20230914T090000",
-          "DTEND;TZID=Pacific/Auckland": "20230914T100000",
-          "LOCATION": "303-G23",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20231019T100030Z",
-          "SUMMARY": "COMPSCI 235"
-        },
-        {
-          "UID": "20230418T132241NZST-0484unsvac@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Software Development Methodolo",
-          "DTSTART;TZID=Pacific/Auckland": "20230725T110000",
-          "DTEND;TZID=Pacific/Auckland": "20230725T120000",
-          "LOCATION": "303S-G75",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230822T120030Z",
-          "SUMMARY": "COMPSCI 235 LAB"
-        },
-        {
-          "UID": "20230418T132241NZST-0489p1lC1l@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Software Development Methodolo",
-          "DTSTART;TZID=Pacific/Auckland": "20230912T110000",
-          "DTEND;TZID=Pacific/Auckland": "20230912T120000",
-          "LOCATION": "303S-G75",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20231017T120030Z",
-          "SUMMARY": "COMPSCI 235 LAB"
-        },
-        {
-          "UID": "20230418T132241NZST-0494218s1O@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Data Management",
-          "DTSTART;TZID=Pacific/Auckland": "20230802T110000",
-          "DTEND;TZID=Pacific/Auckland": "20230802T120000",
-          "LOCATION": "260-016",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20230823T120030Z",
-          "SUMMARY": "BUSAN 201 LAB"
-        },
-        {
-          "UID": "20230418T132241NZST-0500VDgZiL@uoacal.auckland.ac.nz",
-          "DTSTAMP": "20230418T012241Z",
-          "DESCRIPTION": "Data Management",
-          "DTSTART;TZID=Pacific/Auckland": "20230913T110000",
-          "DTEND;TZID=Pacific/Auckland": "20230913T120000",
-          "LOCATION": "260-016",
-          "RRULE": "FREQ=WEEKLY;UNTIL=20231018T120030Z",
-          "SUMMARY": "BUSAN 201 LAB"
-        }
-      ]
+      "UID": "20230418T132241NZST-0229ZDUW0R@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230105T110000",
+      "DTEND;TZID=Pacific/Auckland": "20230105T130000",
+      "LOCATION": "206-209",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230128T130030Z",
+      "SUMMARY": "ECON 151G TUT"
+    },
+    {
+      "UID": "20230418T132241NZST-0234ucHwFA@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230202T110000",
+      "DTEND;TZID=Pacific/Auckland": "20230202T130000",
+      "LOCATION": "206-209",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230205T130030Z",
+      "SUMMARY": "ECON 151G TUT"
+    },
+    {
+      "UID": "20230418T132241NZST-0239lVVFhV@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230209T110000",
+      "DTEND;TZID=Pacific/Auckland": "20230209T130000",
+      "LOCATION": "206-209",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230209T130030Z",
+      "SUMMARY": "ECON 151G TUT"
+    },
+    {
+      "UID": "20230418T132241NZST-02446bpPVJ@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230110T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230110T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230128T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0250Uvfx4b@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230131T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230131T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230205T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0255Gesxk6@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230207T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230207T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230207T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0260F7O4xM@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230111T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230111T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230128T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0265u1MwfB@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230201T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230201T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230205T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0270xUmsXZ@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230208T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230208T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230208T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0277xS2cIu@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230105T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230105T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230128T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0282XJzJne@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230202T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230202T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230205T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0287CLsGtN@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230209T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230209T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230209T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0292fU5Hjm@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012240Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230106T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230106T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230128T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0297SF8sp0@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230203T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230203T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230205T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0302ses0Ri@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Understandg the Global Econ",
+      "DTSTART;TZID=Pacific/Auckland": "20230210T130000",
+      "DTEND;TZID=Pacific/Auckland": "20230210T150000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230210T150030Z",
+      "SUMMARY": "ECON 151G"
+    },
+    {
+      "UID": "20230418T132241NZST-0308xuNVZi@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Enterprise Systems",
+      "DTSTART;TZID=Pacific/Auckland": "20230301T100000",
+      "DTEND;TZID=Pacific/Auckland": "20230301T120000",
+      "LOCATION": "260-004",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230405T120030Z",
+      "SUMMARY": "INFOSYS 321 LAB"
+    },
+    {
+      "UID": "20230418T132241NZST-0312eVzgK8@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Enterprise Systems",
+      "DTSTART;TZID=Pacific/Auckland": "20230426T100000",
+      "DTEND;TZID=Pacific/Auckland": "20230426T120000",
+      "LOCATION": "260-004",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230531T120030Z",
+      "SUMMARY": "INFOSYS 321 LAB"
+    },
+    {
+      "UID": "20230418T132241NZST-0317PBwovo@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "The Entrepreneurial Mindset",
+      "DTSTART;TZID=Pacific/Auckland": "20230228T180000",
+      "DTEND;TZID=Pacific/Auckland": "20230228T210000",
+      "LOCATION": "402-449",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230228T210030Z",
+      "SUMMARY": "INNOVENT 203"
+    },
+    {
+      "UID": "20230418T132241NZST-0322sKW5FD@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "The Entrepreneurial Mindset",
+      "DTSTART;TZID=Pacific/Auckland": "20230321T180000",
+      "DTEND;TZID=Pacific/Auckland": "20230321T210000",
+      "LOCATION": "260-040",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230404T210030Z",
+      "SUMMARY": "INNOVENT 203"
+    },
+    {
+      "UID": "20230418T132241NZST-0328dLFBop@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "The Entrepreneurial Mindset",
+      "DTSTART;TZID=Pacific/Auckland": "20230502T180000",
+      "DTEND;TZID=Pacific/Auckland": "20230502T210000",
+      "LOCATION": "260-040",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230502T210030Z",
+      "SUMMARY": "INNOVENT 203"
+    },
+    {
+      "UID": "20230418T132241NZST-0333sHorKK@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Enterprise Systems",
+      "DTSTART;TZID=Pacific/Auckland": "20230228T140000",
+      "DTEND;TZID=Pacific/Auckland": "20230228T160000",
+      "LOCATION": "105S-039",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230404T160030Z",
+      "SUMMARY": "INFOSYS 321"
+    },
+    {
+      "UID": "20230418T132241NZST-0338JMAe98@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Enterprise Systems",
+      "DTSTART;TZID=Pacific/Auckland": "20230502T140000",
+      "DTEND;TZID=Pacific/Auckland": "20230502T160000",
+      "LOCATION": "105S-039",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230530T160030Z",
+      "SUMMARY": "INFOSYS 321"
+    },
+    {
+      "UID": "20230418T132241NZST-0343NjsdFG@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Object Oriented Software Devel",
+      "DTSTART;TZID=Pacific/Auckland": "20230227T170000",
+      "DTEND;TZID=Pacific/Auckland": "20230227T180000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230403T180030Z",
+      "SUMMARY": "COMPSCI 230"
+    },
+    {
+      "UID": "20230418T132241NZST-0348U3Jwkw@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Object Oriented Software Devel",
+      "DTSTART;TZID=Pacific/Auckland": "20230424T170000",
+      "DTEND;TZID=Pacific/Auckland": "20230424T180000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230424T180030Z",
+      "SUMMARY": "COMPSCI 230"
+    },
+    {
+      "UID": "20230418T132241NZST-0353hnvL7b@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Object Oriented Software Devel",
+      "DTSTART;TZID=Pacific/Auckland": "20230501T170000",
+      "DTEND;TZID=Pacific/Auckland": "20230501T180000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230529T180030Z",
+      "SUMMARY": "COMPSCI 230"
+    },
+    {
+      "UID": "20230418T132241NZST-0358rJVaM6@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Object Oriented Software Devel",
+      "DTSTART;TZID=Pacific/Auckland": "20230228T110000",
+      "DTEND;TZID=Pacific/Auckland": "20230228T120000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230404T120030Z",
+      "SUMMARY": "COMPSCI 230"
+    },
+    {
+      "UID": "20230418T132241NZST-0363rPehJU@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Object Oriented Software Devel",
+      "DTSTART;TZID=Pacific/Auckland": "20230502T110000",
+      "DTEND;TZID=Pacific/Auckland": "20230502T120000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230530T120030Z",
+      "SUMMARY": "COMPSCI 230"
+    },
+    {
+      "UID": "20230418T132241NZST-0368FVXKrz@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Object Oriented Software Devel",
+      "DTSTART;TZID=Pacific/Auckland": "20230302T100000",
+      "DTEND;TZID=Pacific/Auckland": "20230302T110000",
+      "LOCATION": "260-073",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230406T110030Z",
+      "SUMMARY": "COMPSCI 230"
+    },
+    {
+      "UID": "20230418T132241NZST-0373ZaS0K1@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Object Oriented Software Devel",
+      "DTSTART;TZID=Pacific/Auckland": "20230427T100000",
+      "DTEND;TZID=Pacific/Auckland": "20230427T110000",
+      "LOCATION": "260-073",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230601T110030Z",
+      "SUMMARY": "COMPSCI 230"
+    },
+    {
+      "UID": "20230418T132241NZST-0378mXwWMd@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Object Oriented Software Devel",
+      "DTSTART;TZID=Pacific/Auckland": "20230307T100000",
+      "DTEND;TZID=Pacific/Auckland": "20230307T110000",
+      "LOCATION": "303S-G75",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230404T110030Z",
+      "SUMMARY": "COMPSCI 230 LAB"
+    },
+    {
+      "UID": "20230418T132241NZST-0383Vvr2NI@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Object Oriented Software Devel",
+      "DTSTART;TZID=Pacific/Auckland": "20230502T100000",
+      "DTEND;TZID=Pacific/Auckland": "20230502T110000",
+      "LOCATION": "303S-G75",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230530T110030Z",
+      "SUMMARY": "COMPSCI 230 LAB"
+    },
+    {
+      "UID": "20230418T132241NZST-0388AsNu7b@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Digital Fundamentals",
+      "DTSTART;TZID=Pacific/Auckland": "20230303T090000",
+      "DTEND;TZID=Pacific/Auckland": "20230303T120000",
+      "LOCATION": "303-G04",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230406T120030Z",
+      "SUMMARY": "PHYSICS 140 LAB"
+    },
+    {
+      "UID": "20230418T132241NZST-0393wlv4ui@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Digital Fundamentals",
+      "DTSTART;TZID=Pacific/Auckland": "20230428T090000",
+      "DTEND;TZID=Pacific/Auckland": "20230428T120000",
+      "LOCATION": "303-G04",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230602T120030Z",
+      "SUMMARY": "PHYSICS 140 LAB"
+    },
+    {
+      "UID": "20230418T132241NZST-0398ooLe2t@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Digital Fundamentals",
+      "DTSTART;TZID=Pacific/Auckland": "20230227T120000",
+      "DTEND;TZID=Pacific/Auckland": "20230227T130000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230403T130030Z",
+      "SUMMARY": "PHYSICS 140"
+    },
+    {
+      "UID": "20230418T132241NZST-0403ruJWD6@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Digital Fundamentals",
+      "DTSTART;TZID=Pacific/Auckland": "20230424T120000",
+      "DTEND;TZID=Pacific/Auckland": "20230424T130000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230424T130030Z",
+      "SUMMARY": "PHYSICS 140"
+    },
+    {
+      "UID": "20230418T132241NZST-0408XOUeSg@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Digital Fundamentals",
+      "DTSTART;TZID=Pacific/Auckland": "20230501T120000",
+      "DTEND;TZID=Pacific/Auckland": "20230501T130000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230529T130030Z",
+      "SUMMARY": "PHYSICS 140"
+    },
+    {
+      "UID": "20230418T132241NZST-0413459gvD@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Digital Fundamentals",
+      "DTSTART;TZID=Pacific/Auckland": "20230228T120000",
+      "DTEND;TZID=Pacific/Auckland": "20230228T130000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230404T130030Z",
+      "SUMMARY": "PHYSICS 140"
+    },
+    {
+      "UID": "20230418T132241NZST-0419lOXTgu@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Digital Fundamentals",
+      "DTSTART;TZID=Pacific/Auckland": "20230502T120000",
+      "DTEND;TZID=Pacific/Auckland": "20230502T130000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230530T130030Z",
+      "SUMMARY": "PHYSICS 140"
+    },
+    {
+      "UID": "20230418T132241NZST-0424nPmnaB@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Digital Fundamentals",
+      "DTSTART;TZID=Pacific/Auckland": "20230303T120000",
+      "DTEND;TZID=Pacific/Auckland": "20230303T130000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230406T130030Z",
+      "SUMMARY": "PHYSICS 140"
+    },
+    {
+      "UID": "20230418T132241NZST-0429GHchkw@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Digital Fundamentals",
+      "DTSTART;TZID=Pacific/Auckland": "20230428T120000",
+      "DTEND;TZID=Pacific/Auckland": "20230428T130000",
+      "LOCATION": "303-G20",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230602T130030Z",
+      "SUMMARY": "PHYSICS 140"
+    },
+    {
+      "UID": "20230418T132241NZST-0434UORAVE@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Data Management",
+      "DTSTART;TZID=Pacific/Auckland": "20230717T160000",
+      "DTEND;TZID=Pacific/Auckland": "20230717T180000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230821T180030Z",
+      "SUMMARY": "BUSAN 201"
+    },
+    {
+      "UID": "20230418T132241NZST-04397UnTV4@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Data Management",
+      "DTSTART;TZID=Pacific/Auckland": "20230911T160000",
+      "DTEND;TZID=Pacific/Auckland": "20230911T180000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20231016T180030Z",
+      "SUMMARY": "BUSAN 201"
+    },
+    {
+      "UID": "20230418T132241NZST-0443sjEObr@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Data Management",
+      "DTSTART;TZID=Pacific/Auckland": "20230718T160000",
+      "DTEND;TZID=Pacific/Auckland": "20230718T180000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230822T180030Z",
+      "SUMMARY": "BUSAN 201"
+    },
+    {
+      "UID": "20230418T132241NZST-0448Viz95R@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Data Management",
+      "DTSTART;TZID=Pacific/Auckland": "20230912T160000",
+      "DTEND;TZID=Pacific/Auckland": "20230912T180000",
+      "LOCATION": "109-B10",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20231017T180030Z",
+      "SUMMARY": "BUSAN 201"
+    },
+    {
+      "UID": "20230418T132241NZST-0453muKPgH@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Software Development Methodolo",
+      "DTSTART;TZID=Pacific/Auckland": "20230718T090000",
+      "DTEND;TZID=Pacific/Auckland": "20230718T100000",
+      "LOCATION": "303-G23",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230822T100030Z",
+      "SUMMARY": "COMPSCI 235"
+    },
+    {
+      "UID": "20230418T132241NZST-0458VjlTgW@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Software Development Methodolo",
+      "DTSTART;TZID=Pacific/Auckland": "20230912T090000",
+      "DTEND;TZID=Pacific/Auckland": "20230912T100000",
+      "LOCATION": "303-G23",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20231017T100030Z",
+      "SUMMARY": "COMPSCI 235"
+    },
+    {
+      "UID": "20230418T132241NZST-04632wFc9i@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Software Development Methodolo",
+      "DTSTART;TZID=Pacific/Auckland": "20230719T170000",
+      "DTEND;TZID=Pacific/Auckland": "20230719T180000",
+      "LOCATION": "303-G23",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230823T180030Z",
+      "SUMMARY": "COMPSCI 235"
+    },
+    {
+      "UID": "20230418T132241NZST-0469Bzc5sk@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Software Development Methodolo",
+      "DTSTART;TZID=Pacific/Auckland": "20230913T170000",
+      "DTEND;TZID=Pacific/Auckland": "20230913T180000",
+      "LOCATION": "303-G23",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20231018T180030Z",
+      "SUMMARY": "COMPSCI 235"
+    },
+    {
+      "UID": "20230418T132241NZST-0474Of6Gv9@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Software Development Methodolo",
+      "DTSTART;TZID=Pacific/Auckland": "20230720T090000",
+      "DTEND;TZID=Pacific/Auckland": "20230720T100000",
+      "LOCATION": "303-G23",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230824T100030Z",
+      "SUMMARY": "COMPSCI 235"
+    },
+    {
+      "UID": "20230418T132241NZST-0479GRcW32@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Software Development Methodolo",
+      "DTSTART;TZID=Pacific/Auckland": "20230914T090000",
+      "DTEND;TZID=Pacific/Auckland": "20230914T100000",
+      "LOCATION": "303-G23",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20231019T100030Z",
+      "SUMMARY": "COMPSCI 235"
+    },
+    {
+      "UID": "20230418T132241NZST-0484unsvac@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Software Development Methodolo",
+      "DTSTART;TZID=Pacific/Auckland": "20230725T110000",
+      "DTEND;TZID=Pacific/Auckland": "20230725T120000",
+      "LOCATION": "303S-G75",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230822T120030Z",
+      "SUMMARY": "COMPSCI 235 LAB"
+    },
+    {
+      "UID": "20230418T132241NZST-0489p1lC1l@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Software Development Methodolo",
+      "DTSTART;TZID=Pacific/Auckland": "20230912T110000",
+      "DTEND;TZID=Pacific/Auckland": "20230912T120000",
+      "LOCATION": "303S-G75",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20231017T120030Z",
+      "SUMMARY": "COMPSCI 235 LAB"
+    },
+    {
+      "UID": "20230418T132241NZST-0494218s1O@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Data Management",
+      "DTSTART;TZID=Pacific/Auckland": "20230802T110000",
+      "DTEND;TZID=Pacific/Auckland": "20230802T120000",
+      "LOCATION": "260-016",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20230823T120030Z",
+      "SUMMARY": "BUSAN 201 LAB"
+    },
+    {
+      "UID": "20230418T132241NZST-0500VDgZiL@uoacal.auckland.ac.nz",
+      "DTSTAMP": "20230418T012241Z",
+      "DESCRIPTION": "Data Management",
+      "DTSTART;TZID=Pacific/Auckland": "20230913T110000",
+      "DTEND;TZID=Pacific/Auckland": "20230913T120000",
+      "LOCATION": "260-016",
+      "RRULE": "FREQ=WEEKLY;UNTIL=20231018T120030Z",
+      "SUMMARY": "BUSAN 201 LAB"
     }
   ]
 }
